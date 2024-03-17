@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body-img{
+    background-image: url(./image/m2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1400px;
+    margin: auto;
+
+   
+   
+}
+nav .logo{ padding: 20px;
+line-height: 20px;}
+nav .logo h3{
+    font-size: 40px;
+    color: rgb(12, 126, 225);
+}
+nav .logo h3 span{
+    font-size: 18px;
+    margin-top: 0;
+    
+}
+nav .list{}
+nav .list ul{ 
+    display: flex;
+    }
+nav .list ul li{
+    
+}
+nav .list ul li{
+   padding: 20px;
+   font-size: 25px;
+    list-style: none;
+   
+}
+nav .list ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(13, 2, 226);
+    background-color: red;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.main{
+    padding : 200px;
+    /* padding-left:900px; */
+    /* margin-right: 00px; */
+   
+    text-align: center;
+}
+.main h3{ 
+    font-weight: 200px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+   
+}
+.main span{ 
+    
+height: 5px;
+width: 150px;
+background-color: red;
+display: inline-block;
+border-radius: 15px;}
+margin-bottom: 20px;
+.main h1{ 
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main button{ 
+    background-color: red;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+}
+section{
+    text-align: center;
+}
+section h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 20px;
+}
+.upcoming span{ 
+    padding-top: 5px;
+    height: 5px;
+    width: 150px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 15px;
+    
+}
+
+.card{ 
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card img{ 
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    margin: 20px;
+}
+.card h2 { 
+    color: red;
+    font-size: 10px;
+    margin: 10px;
+}
+.Explore{
+    background-image: url(./image/m1.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(18, 7, 225, 0.5);
+    padding-right: 500px;
+    
+}
+.Explore span{ 
+    padding-top: 0px;
+    height: 5px;
+    width: 150px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.Explore h1{
+    padding-bottom: 0px;
+}
+.Explore h3{
+    padding-bottom: 0px;
+    color: red;
+}
+.Explore .img {
+    position: absolute;
+    display: flex;
+    padding-right: 50px;
+    background-color: rgba(18, 7, 225, 0.5); /* Adjust the color and opacity as needed */
+}
+
+.TOURS{
+    display: flex;
+    padding: 50px;
+    width: 1300;
+    margin-right: 300px;
+    margin-left: 300px;
+    
+}
+.TOURS h3{
+    font-size: 25px;
+}
+.TOURS button{ 
+    background-color: red;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.TOURS img{
+    width: 300px;
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+.TOURS .im50{
+    height: 550px;
+   
+}
+.TOURS .im30{
+    height: 300px;
+   
+}
+.TOURS span{ 
+    padding-top: 0px;
+    height: 5px;
+    width: 150px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.footer-main{
+    background-color: red;
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+}
+.name{
+    
+    color: aliceblue;
+    background-color: rgb(30, 0, 255);
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+a{
+    color: white;
+    /* margin: 20px; */
+
+}
+.footer-main .icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: ;
+    margin: 20px;
+    /* padding: 10px; */
+    
+}
+.footer-main .icon i{
+    gap: 10px;
+}
